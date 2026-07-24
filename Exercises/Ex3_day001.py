@@ -1,0 +1,1 @@
+print("I'll complete this 100 day python challenge and become a good python programmer")
