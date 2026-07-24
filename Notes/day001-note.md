@@ -186,8 +186,7 @@ python-100-days/
 │   └── day001.md
 │
 ├── projects/
-│   └── day001_hello_world/
-│       └── hello.py
+│   └── day001-hello_world.py
 │
 ├── exercises/
 │
