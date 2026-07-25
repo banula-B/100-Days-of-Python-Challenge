@@ -4,16 +4,16 @@
 
 By the end of this lesson, you will be able to:
 
-- Distinguish between different numeric types (**integers** and **floats**).
+- Distinguish between integers and floating-point numbers.
 - Perform mathematical calculations using arithmetic operators.
 - Understand and apply operator precedence (PEMDAS).
-- Build a **Simple Calculator** project using the concepts learned.
+- Build a Simple Calculator project using the concepts learned.
 
 ---
 
 # 📚 Numeric Types in Python
 
-Python primarily uses two numeric data types:
+Python mainly uses two numeric data types.
 
 ## Integer (`int`)
 
@@ -26,12 +26,18 @@ Examples:
 - `-5`
 - `0`
 
+Example:
+
 ```python
 age = 25
-temperature = -5
 
 print(age)
-print(temperature)
+```
+
+Output:
+
+```text
+25
 ```
 
 ---
@@ -46,30 +52,17 @@ Examples:
 - `10.5`
 - `-0.2`
 
+Example:
+
 ```python
 price = 19.99
-height = 175.5
 
-print(price)
-print(height)
-```
-
----
-
-## Example
-
-```python
-age = 25          # Integer
-price = 19.99     # Float
-
-print(age)
 print(price)
 ```
 
-**Output**
+Output:
 
 ```text
-25
 19.99
 ```
 
@@ -77,7 +70,7 @@ print(price)
 
 # ➕ Arithmetic Operators
 
-Operators allow you to perform mathematical calculations.
+Python provides several arithmetic operators for performing mathematical calculations.
 
 | Operator | Name | Example | Result |
 |----------|------|---------|--------|
@@ -86,36 +79,34 @@ Operators allow you to perform mathematical calculations.
 | `*` | Multiplication | `5 * 2` | `10` |
 | `/` | Division | `5 / 2` | `2.5` |
 | `//` | Floor Division | `5 // 2` | `2` |
-| `%` | Modulo (Remainder) | `5 % 2` | `1` |
+| `%` | Modulo | `5 % 2` | `1` |
 | `**` | Exponentiation | `5 ** 2` | `25` |
 
----
-
-## Example
+Example:
 
 ```python
 a = 10
 b = 3
 
-print("Addition:", a + b)
-print("Subtraction:", a - b)
-print("Multiplication:", a * b)
-print("Division:", a / b)
-print("Floor Division:", a // b)
-print("Modulo:", a % b)
-print("Exponent:", a ** b)
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a // b)
+print(a % b)
+print(a ** b)
 ```
 
-**Output**
+Output:
 
 ```text
-Addition: 13
-Subtraction: 7
-Multiplication: 30
-Division: 3.3333333333333335
-Floor Division: 3
-Modulo: 1
-Exponent: 1000
+13
+7
+30
+3.3333333333333335
+3
+1
+1000
 ```
 
 ---
@@ -124,34 +115,12 @@ Exponent: 1000
 
 Python follows the same order of operations as mathematics.
 
-The order is:
-
 1. Parentheses `()`
 2. Exponents `**`
-3. Multiplication `*`, Division `/`, Floor Division `//`, Modulo `%`
-4. Addition `+` and Subtraction `-`
+3. Multiplication, Division, Floor Division, Modulo
+4. Addition and Subtraction
 
----
-
-## Example 1
-
-```python
-result = 2 + 3 * 5
-
-print(result)
-```
-
-**Output**
-
-```text
-17
-```
-
-Python performs multiplication first.
-
----
-
-## Example 2
+Example:
 
 ```python
 result = (2 + 3) * 5
@@ -159,83 +128,63 @@ result = (2 + 3) * 5
 print(result)
 ```
 
-**Output**
+Output:
 
 ```text
 25
 ```
 
-The parentheses are evaluated first.
-
 ---
 
-# 🔄 Converting User Input to Numbers
+# 🔄 Type Conversion for Calculations
 
-Remember:
+The `input()` function always returns a **string**.
 
-`input()` always returns a **string**.
+To perform mathematical calculations, convert the input to a number using:
 
-To perform calculations, convert the input to a number using:
-
-- `int()` for whole numbers
-- `float()` for decimal numbers
+- `int()` for whole numbers.
+- `float()` for decimal numbers.
 
 Example:
 
 ```python
-age = int(input("Enter your age: "))
+number = float(input("Enter a number: "))
 
-print(age + 1)
-```
-
-Or with decimal numbers:
-
-```python
-price = float(input("Enter a price: "))
-
-print(price * 2)
+print(number * 2)
 ```
 
 ---
 
-# 🚀 Mini Project: Simple Calculator
+# 🚀 Mini Project - Simple Calculator
 
 Create a file named **`calculator.py`**.
 
-The program should:
+### Requirements
 
-1. Ask the user for two numbers.
-2. Convert them to numbers.
-3. Display the results of different arithmetic operations.
+Your program should:
 
-## Example Code
+- Ask the user to enter two numbers.
+- Convert the inputs into numbers.
+- Display the following results:
+  - Addition
+  - Subtraction
+  - Multiplication
+  - Division
 
-```python
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
-
-print("Addition:", num1 + num2)
-print("Subtraction:", num1 - num2)
-print("Multiplication:", num1 * num2)
-print("Division:", num1 / num2)
-print("Floor Division:", num1 // num2)
-print("Modulo:", num1 % num2)
-print("Exponent:", num1 ** num2)
-```
-
-### Sample Output
+### Sample Input
 
 ```text
 Enter first number: 10
-Enter second number: 3
+Enter second number: 5
+```
 
-Addition: 13.0
-Subtraction: 7.0
-Multiplication: 30.0
-Division: 3.3333333333333335
-Floor Division: 3.0
-Modulo: 1.0
-Exponent: 1000.0
+### Expected Output
+
+```text
+Addition: 15
+Subtraction: 5
+Multiplication: 50
+Division: 2.0
 ```
 
 ---
@@ -244,15 +193,9 @@ Exponent: 1000.0
 
 ## Exercise 1
 
-Calculate the remainder of **10 divided by 3** using the modulo operator.
+Calculate the remainder when **10** is divided by **3** using the modulo operator.
 
-Example:
-
-```python
-print(10 % 3)
-```
-
-Expected Output:
+### Expected Output
 
 ```text
 1
@@ -270,15 +213,17 @@ Formula:
 Area = Length × Width
 ```
 
-Example:
+### Sample Input
 
-```python
-length = float(input("Enter length: "))
-width = float(input("Enter width: "))
+```text
+Enter length: 8
+Enter width: 5
+```
 
-area = length * width
+### Expected Output
 
-print("Area:", area)
+```text
+Area: 40
 ```
 
 ---
@@ -287,13 +232,7 @@ print("Area:", area)
 
 Use the exponentiation operator to calculate **2 to the power of 10**.
 
-Example:
-
-```python
-print(2 ** 10)
-```
-
-Expected Output:
+### Expected Output
 
 ```text
 1024
@@ -303,25 +242,17 @@ Expected Output:
 
 # ❌ Common Mistakes
 
-## 1. Dividing by Zero
-
-Incorrect:
+## Dividing by Zero
 
 ```python
-print(10 / 0)
+10 / 0
 ```
 
-Output:
-
-```text
-ZeroDivisionError
-```
-
-Python cannot divide by zero.
+This causes a `ZeroDivisionError` because Python cannot divide by zero.
 
 ---
 
-## 2. Incorrect Data Types
+## Mixing Strings and Numbers
 
 Incorrect:
 
@@ -331,37 +262,19 @@ number = input("Enter a number: ")
 print(number + 5)
 ```
 
-This causes a **TypeError** because you're trying to add a string and an integer.
-
-Correct:
-
-```python
-number = int(input("Enter a number: "))
-
-print(number + 5)
-```
+Remember to convert the input using `int()` or `float()` before performing calculations.
 
 ---
 
-## 3. Forgetting Operator Precedence
-
-Incorrect expectation:
+## Forgetting Operator Precedence
 
 ```python
-print(2 + 3 * 5)
+2 + 3 * 5
 ```
 
-Some beginners expect `25`, but the result is:
+Python performs multiplication before addition.
 
-```text
-17
-```
-
-Use parentheses when necessary:
-
-```python
-print((2 + 3) * 5)
-```
+Use parentheses when you want a different order.
 
 ---
 
@@ -371,7 +284,7 @@ Today you learned how to:
 
 - ✅ Identify integers and floats.
 - ✅ Perform mathematical calculations using arithmetic operators.
-- ✅ Understand the order of operations (PEMDAS).
+- ✅ Understand operator precedence (PEMDAS).
 - ✅ Convert user input into numbers.
 - ✅ Build a Simple Calculator.
 
@@ -379,48 +292,14 @@ Today you learned how to:
 
 # 🔑 Key Takeaways
 
-- Python has two common numeric types: **integers** and **floats**.
-- Arithmetic operators make calculations simple and powerful.
-- Division (`/`) always returns a **float**.
-- Use `int()` or `float()` to convert user input before performing calculations.
-- Parentheses help control the order in which calculations are performed.
-
----
-
-# 💻 Challenge (Optional)
-
-Upgrade your calculator by adding:
-
-- Floor Division (`//`)
-- Modulo (`%`)
-- Exponentiation (`**`)
-
-Then make it display the results in a clean format like this:
-
-```text
-===== Simple Calculator =====
-
-Addition       : 13
-Subtraction    : 7
-Multiplication : 30
-Division       : 3.3333333333333335
-Floor Division : 3
-Modulo         : 1
-Exponent       : 1000
-```
+- Python supports both integers (`int`) and floating-point numbers (`float`).
+- Arithmetic operators make mathematical calculations easy.
+- Division (`/`) always returns a float.
+- Convert user input to numbers before performing calculations.
+- Parentheses help control the order of operations.
 
 ---
 
 # 📖 What's Next?
 
 ## Day 004 – Type Conversion
-
-In the next lesson, you'll learn about:
-
-- Converting between data types
-- `int()`
-- `float()`
-- `str()`
-- `bool()`
-- Why type conversion is important
-- Building a BMI Calculator using type conversion
