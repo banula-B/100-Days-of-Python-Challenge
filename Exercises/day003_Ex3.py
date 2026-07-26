@@ -7,4 +7,4 @@ number = int(input("Enter a number: "))
 #calculate the power
 
 result = 2 ** number
-print("2 to the power of",number, " is,", result)
+print("2 to the power of", number, " is", result)
