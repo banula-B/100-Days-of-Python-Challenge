@@ -105,16 +105,16 @@ Your program should:
 - Ask the user to enter a score between **0 and 100**.
 - Convert the input into a number.
 - Display the correct grade using the following rules:
-  - **90 and above** → Grade A
-  - **80–89** → Grade B
-  - **70–79** → Grade C
-  - **60–69** → Grade D
-  - **Below 60** → Grade F
+  - **75 and above** → Grade A
+  - **65–74** → Grade B
+  - **55–64** → Grade C
+  - **35–54** → Grade S
+  - **Below 35** → Grade F
 
 ### Sample Input
 
 ```text
-Enter your score: 87
+Enter your score: 70
 ```
 
 ### Expected Output
