@@ -1,3 +1,0 @@
-city = "Galle"
-
-print(city)
