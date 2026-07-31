@@ -152,7 +152,7 @@ Ask the user for their age.
 If the age is **not equal to 21**, print:
 
 ```
-You are not exactly 21 years old.
+"You are not exactly 21 years old."
 ```
 
 ### Sample Input
