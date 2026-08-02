@@ -3,7 +3,7 @@ import time
 
 count = int(input("Enter the starting number: "))
 
-while count > 0:
+while count >= 0:
     print(count)
     count -= 1
     
