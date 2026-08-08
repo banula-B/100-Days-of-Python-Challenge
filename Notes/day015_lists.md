@@ -165,42 +165,6 @@ numbers[2:]
 
 ---
 
-# 🚀 Mini Project - Shopping List
-
-Create a file named **`shopping_list.py`**.
-
-### Requirements
-
-Your program should:
-
-- Start with an empty shopping list.
-- Ask the user to enter items one by one.
-- Add each item to the list.
-- Stop asking for items when the user types **`done`**.
-- Display the final shopping list.
-
-### Sample Input
-
-```text
-Add item: Rice
-Add item: Milk
-Add item: Eggs
-Add item: Bread
-Add item: done
-```
-
-### Expected Output
-
-```text
-Your Final Shopping List:
-- Rice
-- Milk
-- Eggs
-- Bread
-```
-
----
-
 # 🏋️ Exercises
 
 ## Exercise 1
@@ -255,6 +219,42 @@ Enter number 5: 50
 
 ```text
 The sum is: 150
+```
+
+---
+
+# 🚀 Mini Project - Shopping List
+
+Create a file named **`shopping_list.py`**.
+
+### Requirements
+
+Your program should:
+
+- Start with an empty shopping list.
+- Ask the user to enter items one by one.
+- Add each item to the list.
+- Stop asking for items when the user types **`done`**.
+- Display the final shopping list.
+
+### Sample Input
+
+```text
+Add item: Rice
+Add item: Milk
+Add item: Eggs
+Add item: Bread
+Add item: done
+```
+
+### Expected Output
+
+```text
+Your Final Shopping List:
+- Rice
+- Milk
+- Eggs
+- Bread
 ```
 
 ---

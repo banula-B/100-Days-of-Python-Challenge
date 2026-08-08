@@ -79,40 +79,6 @@ The odd numbers are skipped.
 
 ---
 
-# 🚀 Mini Project - Quiz Game
-
-Create a file named **`quiz_game.py`**.
-
-### Requirements
-
-Your program should:
-
-- Ask the user a series of quiz questions.
-- Allow the user to type **`quit`** to exit the quiz early using `break`.
-- Skip unanswered questions using `continue`.
-- Keep track of the user's score.
-- Display the final score when the quiz ends.
-
-### Sample Input
-
-```text
-What is the capital of France?
-Paris
-
-Which planet is known as the Red Planet?
-quit
-```
-
-### Expected Output
-
-```text
-Correct!
-Exiting game...
-Game Over! Your final score is 1/3.
-```
-
----
-
 # 🏋️ Exercises
 
 ## Exercise 1
@@ -178,6 +144,39 @@ Then stop searching using `break`.
 
 ```text
 Found it!
+```
+
+---
+# 🚀 Mini Project - Quiz Game
+
+Create a file named **`quiz_game.py`**.
+
+### Requirements
+
+Your program should:
+
+- Ask the user a series of quiz questions.
+- Allow the user to type **`quit`** to exit the quiz early using `break`.
+- Skip unanswered questions using `continue`.
+- Keep track of the user's score.
+- Display the final score when the quiz ends.
+
+### Sample Input
+
+```text
+What is the capital of France?
+Paris
+
+Which planet is known as the Red Planet?
+quit
+```
+
+### Expected Output
+
+```text
+Correct!
+Exiting game...
+Game Over! Your final score is 1/3.
 ```
 
 ---

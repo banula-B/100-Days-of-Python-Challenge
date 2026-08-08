@@ -96,34 +96,6 @@ The final `print()` moves to the next row.
 
 ---
 
-# 🚀 Mini Project - Pyramid Pattern
-
-Create a file named **`pyramid.py`**.
-
-### Requirements
-
-Your program should:
-
-- Ask the user for the number of pyramid levels.
-- Use nested loops to print a centered pyramid made of `*`.
-- Print one level per line.
-
-### Sample Input
-
-```text
-How many levels? 3
-```
-
-### Expected Output
-
-```text
-  *
- ***
-*****
-```
-
----
-
 # 🏋️ Exercises
 
 ## Exercise 1
@@ -174,6 +146,33 @@ Fruit - Apple
 Fruit - Red
 Color - Apple
 Color - Red
+```
+
+---
+# 🚀 Mini Project - Pyramid Pattern
+
+Create a file named **`pyramid.py`**.
+
+### Requirements
+
+Your program should:
+
+- Ask the user for the number of pyramid levels.
+- Use nested loops to print a centered pyramid made of `*`.
+- Print one level per line.
+
+### Sample Input
+
+```text
+How many levels? 3
+```
+
+### Expected Output
+
+```text
+  *
+ ***
+*****
 ```
 
 ---

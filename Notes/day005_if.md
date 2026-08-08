@@ -102,42 +102,6 @@ Outside the if block
 
 ---
 
-# 🚀 Mini Project - Age Checker
-
-Create a file named **`age_checker.py`**.
-
-### Requirements
-
-Your program should:
-
-- Ask the user for their age.
-- Convert the input into an integer.
-- If the user is **13 or older**, display:
-
-```
-You are old enough to watch a PG-13 movie!
-```
-
-- If the user is **under 13**, display:
-
-```
-You must be at least 13 years old to watch this movie.
-```
-
-### Sample Input
-
-```text
-Please enter your age: 15
-```
-
-### Expected Output
-
-```text
-You are old enough to watch a PG-13 movie!
-```
-
----
-
 # 🏋️ Exercises
 
 ## Exercise 1
@@ -210,6 +174,42 @@ Enter your name: Admin
 
 ```text
 Welcome, System Administrator.
+```
+
+---
+
+# 🚀 Mini Project - Age Checker
+
+Create a file named **`age_checker.py`**.
+
+### Requirements
+
+Your program should:
+
+- Ask the user for their age.
+- Convert the input into an integer.
+- If the user is **13 or older**, display:
+
+```
+You are old enough to watch a PG-13 movie!
+```
+
+- If the user is **under 13**, display:
+
+```
+You must be at least 13 years old to watch this movie.
+```
+
+### Sample Input
+
+```text
+Please enter your age: 15
+```
+
+### Expected Output
+
+```text
+You are old enough to watch a PG-13 movie!
 ```
 
 ---

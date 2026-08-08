@@ -111,35 +111,6 @@ Access denied.
 
 ---
 
-# 🚀 Mini Project - Login System
-
-Create a file named **`login_system.py`**.
-
-### Requirements
-
-Your program should:
-
-- Store a predefined username and password.
-- Ask the user to enter a username.
-- Ask the user to enter a password.
-- Grant access only if **both** the username and password are correct.
-- Otherwise, display an access denied message.
-
-### Sample Input
-
-```text
-Enter username: admin
-Enter password: password123
-```
-
-### Expected Output
-
-```text
-Login Successful! Welcome back.
-```
-
----
-
 # 🏋️ Exercises
 
 ## Exercise 1
@@ -202,6 +173,34 @@ Enter some text: Hello
 
 ```text
 Input accepted.
+```
+
+---
+# 🚀 Mini Project - Login System
+
+Create a file named **`login_system.py`**.
+
+### Requirements
+
+Your program should:
+
+- Store a predefined username and password.
+- Ask the user to enter a username.
+- Ask the user to enter a password.
+- Grant access only if **both** the username and password are correct.
+- Otherwise, display an access denied message.
+
+### Sample Input
+
+```text
+Enter username: admin
+Enter password: password123
+```
+
+### Expected Output
+
+```text
+Login Successful! Welcome back.
 ```
 
 ---

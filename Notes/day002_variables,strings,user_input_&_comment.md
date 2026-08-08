@@ -93,39 +93,6 @@ documentation string.
 
 ---
 
-# 🚀 Mini Project: Personal Introduction Program
-
-Create a file named **`introduction.py`**.
-
-The program should:
-
-1. Ask the user for their name.
-2. Ask for their favourite hobby.
-3. Ask for their dream job.
-4. Print a complete introduction.
-
-### Example Code
-
-```python
-name = input("What is your name? ")
-hobby = input("What is your favourite hobby? ")
-job = input("What is your dream job? ")
-
-print("My name is " + name + ". I love " + hobby + " and I want to be a " + job + ".")
-```
-
-### Sample Output
-
-```text
-What is your name? Bob
-What is your favourite hobby? Coding
-What is your dream job? Software Engineer
-
-My name is Bob. I love Coding and I want to be a Software Engineer.
-```
-
----
-
 # 🏋️ Exercises
 
 ## Exercise 1
@@ -170,6 +137,39 @@ Example:
 # I want to learn Python because it is beginner-friendly.
 # I also want to build projects and become a software developer.
 # Learning Python will help me automate tasks and solve problems.
+```
+
+---
+
+# 🚀 Mini Project: Personal Introduction Program
+
+Create a file named **`introduction.py`**.
+
+The program should:
+
+1. Ask the user for their name.
+2. Ask for their favourite hobby.
+3. Ask for their dream job.
+4. Print a complete introduction.
+
+### Example Code
+
+```python
+name = input("What is your name? ")
+hobby = input("What is your favourite hobby? ")
+job = input("What is your dream job? ")
+
+print("My name is " + name + ". I love " + hobby + " and I want to be a " + job + ".")
+```
+
+### Sample Output
+
+```text
+What is your name? Bob
+What is your favourite hobby? Coding
+What is your dream job? Software Engineer
+
+My name is Bob. I love Coding and I want to be a Software Engineer.
 ```
 
 ---

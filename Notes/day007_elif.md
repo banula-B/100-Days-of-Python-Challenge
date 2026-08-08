@@ -93,38 +93,6 @@ Grade B
 Only one message is printed because Python stops after the matching condition.
 
 ---
-
-# 🚀 Mini Project - Grade Calculator
-
-Create a file named **`grade_calculator.py`**.
-
-### Requirements
-
-Your program should:
-
-- Ask the user to enter a score between **0 and 100**.
-- Convert the input into a number.
-- Display the correct grade using the following rules:
-  - **75 and above** → Grade A
-  - **65–74** → Grade B
-  - **55–64** → Grade C
-  - **35–54** → Grade S
-  - **Below 35** → Grade F
-
-### Sample Input
-
-```text
-Enter your score: 70
-```
-
-### Expected Output
-
-```text
-Grade: B
-```
-
----
-
 # 🏋️ Exercises
 
 ## Exercise 1
@@ -207,6 +175,37 @@ Enter a number: 65
 
 ```text
 Large
+```
+
+---
+
+# 🚀 Mini Project - Grade Calculator
+
+Create a file named **`grade_calculator.py`**.
+
+### Requirements
+
+Your program should:
+
+- Ask the user to enter a score between **0 and 100**.
+- Convert the input into a number.
+- Display the correct grade using the following rules:
+  - **75 and above** → Grade A
+  - **65–74** → Grade B
+  - **55–64** → Grade C
+  - **35–54** → Grade S
+  - **Below 35** → Grade F
+
+### Sample Input
+
+```text
+Enter your score: 70
+```
+
+### Expected Output
+
+```text
+Grade: B
 ```
 
 ---

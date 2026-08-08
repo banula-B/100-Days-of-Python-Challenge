@@ -101,34 +101,6 @@ Even
 ```
 
 ---
-
-# 🚀 Mini Project - Even/Odd Checker
-
-Create a file named **`even_odd.py`**.
-
-### Requirements
-
-Your program should:
-
-- Ask the user to enter a whole number.
-- Convert the input into an integer.
-- Determine whether the number is even or odd using the modulo operator (`%`).
-- Display the appropriate message.
-
-### Sample Input
-
-```text
-Enter a number: 17
-```
-
-### Expected Output
-
-```text
-17 is an Odd number.
-```
-
----
-
 # 🏋️ Exercises
 
 ## Exercise 1
@@ -220,6 +192,34 @@ Negative
 ```
 
 ---
+
+# 🚀 Mini Project - Even/Odd Checker
+
+Create a file named **`even_odd.py`**.
+
+### Requirements
+
+Your program should:
+
+- Ask the user to enter a whole number.
+- Convert the input into an integer.
+- Determine whether the number is even or odd using the modulo operator (`%`).
+- Display the appropriate message.
+
+### Sample Input
+
+```text
+Enter a number: 17
+```
+
+### Expected Output
+
+```text
+17 is an Odd number.
+```
+
+---
+
 
 # ❌ Common Mistakes
 

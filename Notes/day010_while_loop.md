@@ -94,41 +94,6 @@ The program keeps asking for input until the user types **quit**.
 
 ---
 
-# 🚀 Mini Project - Countdown Timer
-
-Create a file named **`countdown.py`**.
-
-### Requirements
-
-Your program should:
-
-- Ask the user to enter a starting number.
-- Count down from that number to **0**.
-- Display each number on a new line.
-- Display **"Blast off!"** after reaching zero.
-
-> **Optional:** Add a one-second delay between each number using the `time` module.
-
-### Sample Input
-
-```text
-Enter the starting number: 5
-```
-
-### Expected Output
-
-```text
-5
-4
-3
-2
-1
-0
-Blast off!
-```
-
----
-
 # 🏋️ Exercises
 
 ## Exercise 1
@@ -186,6 +151,40 @@ Write a program that calculates the **sum of all numbers from 1 to 100** using a
 
 ```text
 5050
+```
+
+---
+# 🚀 Mini Project - Countdown Timer
+
+Create a file named **`countdown.py`**.
+
+### Requirements
+
+Your program should:
+
+- Ask the user to enter a starting number.
+- Count down from that number to **0**.
+- Display each number on a new line.
+- Display **"Blast off!"** after reaching zero.
+
+> **Optional:** Add a one-second delay between each number using the `time` module.
+
+### Sample Input
+
+```text
+Enter the starting number: 5
+```
+
+### Expected Output
+
+```text
+5
+4
+3
+2
+1
+0
+Blast off!
 ```
 
 ---

@@ -316,29 +316,6 @@ For each day of this challenge, aim to make at least three commits:
 This habit will help you build consistency and maintain an active GitHub contribution history.
 
 ---
-
-# Mini Project
-
-## Hello World
-
-Create a file named `hello.py` and print a welcome message.
-
-Example:
-
-```python
-print("Hello, World!")
-print("Welcome to my 100 Days of Python Challenge!")
-```
-
-Expected output:
-
-```text
-Hello, World!
-Welcome to my 100 Days of Python Challenge!
-```
-
----
-
 # Exercises
 
 ## Exercise 1
@@ -376,6 +353,28 @@ I will complete the 100 Days of Python Challenge.
 ```
 
 ---
+# Mini Project
+
+## Hello World
+
+Create a file named `hello.py` and print a welcome message.
+
+Example:
+
+```python
+print("Hello, World!")
+print("Welcome to my 100 Days of Python Challenge!")
+```
+
+Expected output:
+
+```text
+Hello, World!
+Welcome to my 100 Days of Python Challenge!
+```
+
+---
+
 
 # Common Mistakes
 

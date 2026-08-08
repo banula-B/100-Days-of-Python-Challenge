@@ -155,40 +155,6 @@ print(number * 2)
 
 ---
 
-# 🚀 Mini Project - Simple Calculator
-
-Create a file named **`calculator.py`**.
-
-### Requirements
-
-Your program should:
-
-- Ask the user to enter two numbers.
-- Convert the inputs into numbers.
-- Display the following results:
-  - Addition
-  - Subtraction
-  - Multiplication
-  - Division
-
-### Sample Input
-
-```text
-Enter first number: 10
-Enter second number: 5
-```
-
-### Expected Output
-
-```text
-Addition: 15
-Subtraction: 5
-Multiplication: 50
-Division: 2.0
-```
-
----
-
 # 🏋️ Exercises
 
 ## Exercise 1
@@ -236,6 +202,39 @@ Use the exponentiation operator to calculate **2 to the power of 10**.
 
 ```text
 1024
+```
+
+---
+# 🚀 Mini Project - Simple Calculator
+
+Create a file named **`calculator.py`**.
+
+### Requirements
+
+Your program should:
+
+- Ask the user to enter two numbers.
+- Convert the inputs into numbers.
+- Display the following results:
+  - Addition
+  - Subtraction
+  - Multiplication
+  - Division
+
+### Sample Input
+
+```text
+Enter first number: 10
+Enter second number: 5
+```
+
+### Expected Output
+
+```text
+Addition: 15
+Subtraction: 5
+Multiplication: 50
+Division: 2.0
 ```
 
 ---

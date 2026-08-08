@@ -316,44 +316,6 @@ Output:
 
 ---
 
-# 🚀 Mini Project - Student Marks Manager
-
-Create a file named **`marks_manager.py`**.
-
-### Requirements
-
-Your program should:
-
-- Allow the user to enter student marks.
-- Continue accepting marks until the user enters `done`.
-- Store the marks in a list.
-- Sort the marks from highest to lowest.
-- Calculate the class average.
-- Display the highest mark.
-- Display the lowest mark.
-
-### Sample Input
-
-```text
-Enter a student mark (or 'done' to finish): 75
-Enter a student mark (or 'done' to finish): 88
-Enter a student mark (or 'done' to finish): 92
-Enter a student mark (or 'done' to finish): 64
-Enter a student mark (or 'done' to finish): 81
-Enter a student mark (or 'done' to finish): done
-```
-
-### Expected Output
-
-```text
-Ranked Marks: [92.0, 88.0, 81.0, 75.0, 64.0]
-Class Average: 80.00
-Highest Mark: 92.0
-Lowest Mark: 64.0
-```
-
----
-
 # 🏋️ Exercises
 
 ## Exercise 1
@@ -404,6 +366,43 @@ Create a list of names and use `.sort()` to arrange them alphabetically.
 
 ```text
 ["Alice", "Bob", "Charlie", "David"]
+```
+
+---
+# 🚀 Mini Project - Student Marks Manager
+
+Create a file named **`marks_manager.py`**.
+
+### Requirements
+
+Your program should:
+
+- Allow the user to enter student marks.
+- Continue accepting marks until the user enters `done`.
+- Store the marks in a list.
+- Sort the marks from highest to lowest.
+- Calculate the class average.
+- Display the highest mark.
+- Display the lowest mark.
+
+### Sample Input
+
+```text
+Enter a student mark (or 'done' to finish): 75
+Enter a student mark (or 'done' to finish): 88
+Enter a student mark (or 'done' to finish): 92
+Enter a student mark (or 'done' to finish): 64
+Enter a student mark (or 'done' to finish): 81
+Enter a student mark (or 'done' to finish): done
+```
+
+### Expected Output
+
+```text
+Ranked Marks: [92.0, 88.0, 81.0, 75.0, 64.0]
+Class Average: 80.00
+Highest Mark: 92.0
+Lowest Mark: 64.0
 ```
 
 ---

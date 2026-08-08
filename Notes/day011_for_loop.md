@@ -96,43 +96,6 @@ I like Cherry
 
 ---
 
-# 🚀 Mini Project - Multiplication Table Generator
-
-Create a file named **`multiplication_table.py`**.
-
-### Requirements
-
-Your program should:
-
-- Ask the user to enter a number.
-- Generate the multiplication table for that number from **1 to 10**.
-- Display each multiplication result.
-
-> **Note:** This project uses the `range()` function, which will be explained in detail in the next lesson.
-
-### Sample Input
-
-```text
-Enter a number: 5
-```
-
-### Expected Output
-
-```text
-5 x 1 = 5
-5 x 2 = 10
-5 x 3 = 15
-5 x 4 = 20
-5 x 5 = 25
-5 x 6 = 30
-5 x 7 = 35
-5 x 8 = 40
-5 x 9 = 45
-5 x 10 = 50
-```
-
----
-
 # 🏋️ Exercises
 
 ## Exercise 1
@@ -193,6 +156,42 @@ Use a `for` loop to calculate the total length of all strings in the following l
 
 ```text
 14
+```
+
+---
+# 🚀 Mini Project - Multiplication Table Generator
+
+Create a file named **`multiplication_table.py`**.
+
+### Requirements
+
+Your program should:
+
+- Ask the user to enter a number.
+- Generate the multiplication table for that number from **1 to 10**.
+- Display each multiplication result.
+
+> **Note:** This project uses the `range()` function, which will be explained in detail in the next lesson.
+
+### Sample Input
+
+```text
+Enter a number: 5
+```
+
+### Expected Output
+
+```text
+5 x 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+5 x 4 = 20
+5 x 5 = 25
+5 x 6 = 30
+5 x 7 = 35
+5 x 8 = 40
+5 x 9 = 45
+5 x 10 = 50
 ```
 
 ---

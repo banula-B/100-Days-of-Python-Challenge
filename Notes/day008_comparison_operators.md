@@ -88,38 +88,6 @@ New High Score!
 
 ---
 
-# 🚀 Mini Project - Number Guessing Game
-
-Create a file named **`guessing_game.py`**.
-
-### Requirements
-
-Your program should:
-
-- Set a secret number.
-- Ask the user to guess the number.
-- Compare the user's guess with the secret number.
-- Display one of the following messages:
-  - Correct!
-  - Too high!
-  - Too low!
-
-### Sample Input
-
-```text
-Guess the secret number (1-10): 5
-```
-
-> Assume the secret number is **7**.
-
-### Expected Output
-
-```text
-Too low! Try a larger number next time.
-```
-
----
-
 # 🏋️ Exercises
 
 ## Exercise 1
@@ -189,6 +157,67 @@ Enter temperature: -3
 
 ```text
 It is freezing!
+```
+
+---
+# 🚀 Mini Project - Number Guessing Game
+
+Create a file named **`guessing_game.py`**.
+
+### Requirements
+
+Your program should:
+
+- Set a secret number.
+- Ask the user to guess the number.
+- Compare the user's guess with the secret number.
+- Display one of the following messages:
+  - Correct!
+  - Too high!
+  - Too low!
+
+### Sample Input
+
+```text
+Guess the secret number (1-10): 5
+```
+
+> Assume the secret number is **7**.
+
+### Expected Output
+
+```text
+Too low! Try a larger number next time.
+```
+
+---# 🚀 Mini Project - Number Guessing Game
+
+Create a file named **`guessing_game.py`**.
+
+### Requirements
+
+Your program should:
+
+- Set a secret number.
+- Ask the user to guess the number.
+- Compare the user's guess with the secret number.
+- Display one of the following messages:
+  - Correct!
+  - Too high!
+  - Too low!
+
+### Sample Input
+
+```text
+Guess the secret number (1-10): 5
+```
+
+> Assume the secret number is **7**.
+
+### Expected Output
+
+```text
+Too low! Try a larger number next time.
 ```
 
 ---

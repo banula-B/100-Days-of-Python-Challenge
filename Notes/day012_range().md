@@ -154,37 +154,6 @@ range(1, 6)
 ```
 
 ---
-
-# 🚀 Mini Project - Pattern Printer
-
-Create a file named **`pattern_printer.py`**.
-
-### Requirements
-
-Your program should:
-
-- Ask the user for the number of rows.
-- Print a triangle pattern using `*`.
-- Use a `for` loop together with `range()`.
-
-### Sample Input
-
-```text
-How many rows? 5
-```
-
-### Expected Output
-
-```text
-*
-**
-***
-****
-*****
-```
-
----
-
 # 🏋️ Exercises
 
 ## Exercise 1
@@ -248,6 +217,36 @@ Enter a number: 10
 ```
 
 ---
+# 🚀 Mini Project - Pattern Printer
+
+Create a file named **`pattern_printer.py`**.
+
+### Requirements
+
+Your program should:
+
+- Ask the user for the number of rows.
+- Print a triangle pattern using `*`.
+- Use a `for` loop together with `range()`.
+
+### Sample Input
+
+```text
+How many rows? 5
+```
+
+### Expected Output
+
+```text
+*
+**
+***
+****
+*****
+```
+
+---
+
 
 # ❌ Common Mistakes
 

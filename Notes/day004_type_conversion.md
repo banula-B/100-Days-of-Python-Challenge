@@ -155,42 +155,6 @@ Enter your age: 20
 
 ---
 
-# 🚀 Mini Project - BMI Calculator
-
-Create a file named **`bmi_calculator.py`**.
-
-### Requirements
-
-Your program should:
-
-- Ask the user for their height in meters.
-- Ask the user for their weight in kilograms.
-- Convert both inputs into floating-point numbers.
-- Calculate the BMI using the formula:
-
-```
-BMI = Weight / (Height × Height)
-```
-
-- Display the calculated BMI.
-
-### Sample Input
-
-```text
-Enter your height (meters): 1.75
-Enter your weight (kg): 70
-```
-
-### Expected Output
-
-```text
-Your BMI is: 22.86
-```
-
-> **Note:** The exact decimal value may vary depending on formatting.
-
----
-
 # 🏋️ Exercises
 
 ## Exercise 1
@@ -253,6 +217,41 @@ You are 21 years old.
 ```
 
 > *Assuming the current year is 2026.*
+
+---
+# 🚀 Mini Project - BMI Calculator
+
+Create a file named **`bmi_calculator.py`**.
+
+### Requirements
+
+Your program should:
+
+- Ask the user for their height in meters.
+- Ask the user for their weight in kilograms.
+- Convert both inputs into floating-point numbers.
+- Calculate the BMI using the formula:
+
+```
+BMI = Weight / (Height × Height)
+```
+
+- Display the calculated BMI.
+
+### Sample Input
+
+```text
+Enter your height (meters): 1.75
+Enter your weight (kg): 70
+```
+
+### Expected Output
+
+```text
+Your BMI is: 22.86
+```
+
+> **Note:** The exact decimal value may vary depending on formatting.
 
 ---
 
