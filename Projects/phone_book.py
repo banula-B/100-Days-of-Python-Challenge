@@ -21,7 +21,7 @@ while True:
 
     elif choice == 2:
         name = input("Enter name: ").strip().title()
-        print(f"Number: {phone_book.get(name, 'Not Found')}")
+        print(f"Number: {phone_book.get(name, 'Contact Not Found')}")
 
     elif choice == 3:
         print("\n All Contacts")
