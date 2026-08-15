@@ -17,4 +17,4 @@ elif choice == "2":
     temp_f = celsius_to_fahrenheit(temp_c)
     print(f"{temp_c}°C is equal to {temp_f:.2f}°F.")
 else:
-    print("Invalid Selection."
+    print("Invalid Selection.")
