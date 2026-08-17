@@ -1,6 +1,6 @@
 # This is program sort name list by last name
 
-names = ["Lewis Hamilton", "Sebastian Vettel", "Charles Leclerc", "Max Verstappen", "Fernando Alonso"]
+names = ["Zoe Smith", "Alice Brown", "Charlie Davis", "Bob Miller"]
 
 print(f"Original List: {names}")
 
