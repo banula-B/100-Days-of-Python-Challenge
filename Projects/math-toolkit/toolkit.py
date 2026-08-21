@@ -1,12 +1,16 @@
 import math
 import my_math
+print("--- Math Toolkit App ---")
 
-n = int(input("Enter a number: "))
+n = int(input("Enter an integer: "))
 
 sqrt = math.sqrt(n)
-is_prime = my_math.is_prime(n)
-factorial = my_math.factorial(n)
+print(f"Standard Math -> Square root of {n} is: {sqrt}")
 
-print(f"Square root of {n} is: {sqrt}")
-print(f"{n} is a prime number: {is_prime}")
-print(f"Factorial of {n} is: {factorial}")
+if my_math.is_prime(n):
+    print(f"Custom Math   -> {n} is a prime number!")
+else:
+    print(f"Custom Math   -> {n} is NOT a prime number.")
+
+fact_val = my_math.factorial(n)
+print(f"Custom Math   -> The Factorial of {n} is: {fact_val}")
