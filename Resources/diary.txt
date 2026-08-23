@@ -1,0 +1,8 @@
+Date: 21 August 2026
+I successfully completed Day 30 of the 100 Days of Python challenge! Creating and importing custom packages makes my code feel like actual professional software. 
+
+Date: 22 August 2026
+Today is Day 31! I am diving into file handling. Using 'with open()' makes so much sense because it prevents memory leaks by closing the file automatically. I am testing my diary reader program on this exact file.
+
+Date: 23 August 2026
+Tomorrow's lesson is on File Writing. I look forward to creating notes directly from Python instead of writing them manually. This challenge is really coming together!
