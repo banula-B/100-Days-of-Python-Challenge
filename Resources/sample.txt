@@ -1,0 +1,11 @@
+This is a sample text file
+It contains multiple lines of text
+We will use this for practicing file reading operations
+
+My note is here
+
+Note: Buy milk
+NOTE: Finish homework
+note: Call John
+Important Note: Read this
+My note is here
