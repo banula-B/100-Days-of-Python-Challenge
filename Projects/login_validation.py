@@ -7,15 +7,16 @@ class PasswordTooWeakError(Exception):
 
 def username_validation(username):
     if len(username) < 5:
-        raise UsernameTooShortError("Username must be at least 5 characters long! ")
+        raise UsernameTooShortError(
+            "Username must be at least 5 characters long! "
+        )
     print("Username is valid")   
 
 def password_validation(password):
     special_characters = "!@#$%^&*"
+    has_special_character = any(char in special_characters for char in password)
 
-    if len(password) < 8 or not any(
-        char in special_characters for char in password
-    ):
+    if len(password) < 8 or not has_special_character:
         raise PasswordTooWeakError(
             "Password must be at least 8 characters long "
             "and contain at least one special character (!@#$%^&*)"
