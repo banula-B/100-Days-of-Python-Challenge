@@ -206,7 +206,6 @@ The resulting Python object can then be accessed like a normal dictionary:
 print(settings["theme"])
 print(settings["volume"])
 ```
-
 ---
 
 # Handling Missing or Invalid JSON Files
