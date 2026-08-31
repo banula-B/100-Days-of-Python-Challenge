@@ -764,16 +764,4 @@ Today you learned how to:
 
 # What's Next?
 
-## Day 039 - OS Module (System Operations)
-
-In the next lesson, you will learn how Python can interact with the **operating system** using the built-in `os` module.
-
-You will learn how to:
-
-* Work with directories.
-* Create and remove folders.
-* Check whether files and folders exist.
-* Rename files and directories.
-* List directory contents.
-* Work with file and directory paths.
-* Build a practical **File Organizer** project.
+## Day 039 - Random Module
