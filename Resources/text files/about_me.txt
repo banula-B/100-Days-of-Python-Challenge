@@ -1,5 +1,3 @@
-My name is Banula
-I'm from Sri Lanka
-I want to be a python developer
-
-PS: I am currently learning about file appending!
+Hi. I'm Banula Bimsara
+I'm From Sri Lanka
+My Learning Goal is to Master Python Language
