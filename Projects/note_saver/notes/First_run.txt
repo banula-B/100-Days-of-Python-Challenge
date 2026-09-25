@@ -1,3 +1,2 @@
-Title: First_run
-=============================
-This is the first run of the day 32 mini project. this is a note saver program. welcome to python!. wish you all the best
+====First_run====
+This is the first run of the day 32 mini project. this is a note saver program. welcome to python!.

@@ -1,34 +1,30 @@
 import os
-
 print("--- Welcome to Note Saver! ---")
 
-title = input("Enter a title for your note: ").strip()
+name = input("Please enter a title for your note: ").strip()
 
-# Clean the title slightly so it's a safe filename
 safe_title = "".join(
-    c for c in title if c.isalnum() or c in (" ", "_")
+    c for c in name if c.isalnum() or c in (" ", "_")
 ).replace(" ", "_")
 
 if not safe_title:
-    print("Invalid title. Note creation cancelled.")
+    print("Your name is not safe. Please try different!.")
+
+
+
 else:
-    # Directory where notes will be saved
-    # if you dont need to change the directory from default, remove this.
-    notes_directory = r"Projects\day32\notes" # Change as you need
+    notes_folder = "Projects/note_saver/notes" # Create the notes folder if it doesn't exist
 
-    # Create the full file path 
-    filename = os.path.join(notes_directory, f"{safe_title}.txt")
-    #if the file directory is default:
-    # filename = f"{safe_title}.txt" 
+    os.makedirs(notes_folder, exist_ok=True)
 
-    # Step 2: Get the note content
-    print("\nType your note below. Press Enter to complete.")
+    file_name = f"{notes_folder}/{safe_title}.txt"
+
+    print("Enter your note content below.")
     content = input("> ")
 
-    # Step 3: Write the note to the file
-    with open(filename, "w") as file:
-        file.write(f"Title: {safe_title}\n")
-        file.write("=============================\n")
-        file.write(content + "\n")
+    with open(file_name,"w") as file:
+        file.write(f"===={safe_title}====\n")
+        file.write("")
+        file.write(content +"\n")
 
-    print(f"\n✅ Note successfully saved to '{filename}'!")
+print(f"\n✅ Note successfully saved to '{file_name}'!")
