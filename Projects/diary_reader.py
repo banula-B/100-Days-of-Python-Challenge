@@ -3,43 +3,40 @@ from pathlib import Path
 file_path = Path("../Resources/text files/diary.txt")
 
 if not file_path.exists():
-    print("Diary file is not available.")
+    print("File is not found. Please check the file path")
+
 else:
-    with open(file_path, "r") as file:
-        lines = file.readlines()
+    with open (file_path , "r") as file:
+        contents = file.readlines()
 
-    entry_count = 0
-    current_entry = []
+    entry = []
+    count = 0
 
-    for line in lines:
-        line = line.strip()
+    for content in contents:
+        content = content.strip()
 
-        if line.startswith("Date:"):
-            # Print the previous entry before starting a new one
-            if current_entry:
-                print("\n" + "=" * 40)
-                print(f"Diary Entry {entry_count}")
-                print("=" * 40)
+        if content.startswith("Date:"):
+            
+            if entry:
+                print(f"========Diary Entry {count}========")
 
-                for entry_line in current_entry:
-                    print(entry_line)
+                for entry_line in entry:
+                    print(f"{entry_line}")
 
-                current_entry = []
+                entry = []
 
-            entry_count += 1
-            current_entry.append(line)
+            count+=1
+            entry.append(content)
 
-        elif line:
-            current_entry.append(line)
+        elif content:
+            entry.append(content)
 
-    # Print the final entry
-    if current_entry:
-        print("\n" + "=" * 40)
-        print(f"Diary Entry {entry_count}")
-        print("=" * 40)
+    #Print full entry
 
-        for entry_line in current_entry:
-            print(entry_line)
+    if entry:
+        print(f"========Diary Entry {count}========")
 
-    print("\n" + "=" * 40)
-    print(f"Total diary entries: {entry_count}")
+        for entry_line in entry:
+            print(f"{entry_line}")
+
+    print(f"========Total Diary Entries: {count}========")
