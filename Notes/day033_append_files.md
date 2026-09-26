@@ -282,6 +282,7 @@ If it already exists:
 ### Mini Project: System Log Book
 
 Create a **System Log Book** application.
+create a file named `system_log_book.py`
 
 The application should simulate a simple event-logging system that continuously adds events to a file named `system_log.txt`.
 
