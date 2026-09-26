@@ -1,3 +1,7 @@
 banana
 mango
 dragonfruit
+
+item 1: Banana 2Kg
+item 2: 10 Apples
+item 3: 3 Papaya
