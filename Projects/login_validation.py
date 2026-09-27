@@ -13,7 +13,7 @@ def username_validation(username):
     print("Username is valid")   
 
 def password_validation(password):
-    special_characters = "!@#$%^&*"
+    special_characters = ['!','@','#','$','%','^','&','*']
     has_special_character = any(char in special_characters for char in password)
 
     if len(password) < 8 or not has_special_character:
